@@ -16,4 +16,4 @@ jobs:
     - name: Build and Test
       run: sbt -v +test
     - name: use giter8 to get scala template 
-      run : sbt new scala/scala-seed.g8 --branch scalaDemo
+      run : sbt new scala/scala-seed.g8 --branch main
